@@ -6,7 +6,7 @@ export class FoodEntity {
  @PrimaryGeneratedColumn()
   id: number;
 
-  @Column({ length: 255 }) 
+  @Column({ length: 400 }) 
   name: string;
 
   @Column()
